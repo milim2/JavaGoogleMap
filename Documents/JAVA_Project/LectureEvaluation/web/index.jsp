@@ -66,8 +66,103 @@
                 <button type="submit" class="btn btn-primary mx-1 mt-2">Search</button>
                 <a class="btn btn-primary mx-1 mt-2" data-toggle="modal" href="#registerModal">Register</a>
                 <a class="btn btn-danger mx-1 mt-2" data-toggle="modal" href="#reportModal">Report</a>              
-            </form>            
+            </form> 
+            
+            <div class="card bg-light mt-3">
+            <div class="card-header bg-light">
+                <div class="row">
+                    <div class="col-8 text-left">WEb Development 2&nbsp;<samll>Sonia</samll></div>
+                    <div class="col-4 text-right">
+                        Total Grade  <span style="color: red;">D</span>
+                    </div>
+                </div>                
+            </div>        
+            
+            <div class="card-body">
+                <h5 class="card-title">
+                    Her lecture was not good.&nbsp;<small>(2018 Jan)</small>
+                </h5>
+                <p class="card-text">She didn't teach anything, but she gave us a lit of assignment which is really hard to solve by myself.</p>
+                <div class="row">
+                <div class="col-9 text-left">
+                    Grade<span style="color:red">A</span>
+                    Intensity<span style="color:red">C</span>
+                    Lecture<span style="color:red">D</span>
+                    <span style="color:green">(recommend: 15)</span>
+                </div>
+                <div class="col-3 text-right">
+                    <a onClick="retuen confirm('Like')" href="./likeAction.js?evaluationID=">Like</a>
+                    <a onClick="retuen confirm('Delete')" href="./deleteAction.js?evaluationID=">Delete</a>
+                </div>
+                </div>
+            </div>
+            </div>
+            
+            <div class="card bg-light mt-3">
+            <div class="card-header bg-light">
+                <div class="row">
+                    <div class="col-8 text-left">WEb Development 1&nbsp;<samll>Den Zen</samll></div>
+                    <div class="col-4 text-right">
+                        Total Grade  <span style="color: red;">B</span>
+                    </div>
+                </div>                
+            </div>
+        
+            <!-- 1st evaluation -->
+            <div class="card-body">
+                <h5 class="card-title">
+                    Her lecture was not good.&nbsp;<small>(2017 Sep)</small>
+                </h5>
+                <p class="card-text">He didn't teach much detailed, but he gave us practical assignments which can be a firm knowledge for us.</p>
+                <div class="row">
+                <div class="col-9 text-left">
+                    Grade<span style="color:red">A</span>
+                    Intensity<span style="color:red">A</span>
+                    Lecture<span style="color:red">C</span>
+                    <span style="color:green">(recommend: 20)</span>
+                </div>
+                <div class="col-3 text-right">
+                    <a onClick="retuen confirm('Like')" href="./likeAction.js?evaluationID=">Like</a>
+                    <a onClick="retuen confirm('Delete')" href="./deleteAction.js?evaluationID=">Delete</a>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="card bg-light mt-3">
+            <div class="card-header bg-light">
+                <div class="row">
+                    <div class="col-8 text-left">OOP - Java 1&nbsp;<samll>Richard Yanaki</samll></div>
+                    <div class="col-4 text-right">
+                        Total Grade  <span style="color: red;">A</span>
+                    </div>
+                </div>                
+            </div>
+        
+            <!-- 1st evaluation -->
+            <div class="card-body">
+                <h5 class="card-title">
+                    His lecture was good.&nbsp;<small>(2017 Sep)</small>
+                </h5>
+                <p class="card-text">His teaching skill and materials were so nice. Sometimes you can feel boring, but his example code of Java 1 was really useful.
+                    And He always tried to let us know the concept and share his time for each student directly.
+                    His attitude to students were honest and fair. He is the best professor in Sheridan.</p>
+                <div class="row">
+                <div class="col-9 text-left">
+                    Grade<span style="color:red">A</span>
+                    Intensity<span style="color:red">B</span>
+                    Lecture<span style="color:red">A</span>
+                    <span style="color:green">(recommend: 50)</span>
+                </div>
+                <div class="col-3 text-right">
+                    <a onClick="retuen confirm('Like')" href="./likeAction.js?evaluationID=">Like</a>
+                    <a onClick="retuen confirm('Delete')" href="./deleteAction.js?evaluationID=">Delete</a>
+                </div>
+                </div>
+            </div>
+            </div>
         </section>
+        
+        
         
         <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
             <div class="modal-dialog">
@@ -135,8 +230,8 @@
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-sm-3">
-                                    <label>Grade</label>
-                                    <select name="creditScore" class="form-control">
+                                    <label>Total Score</label>
+                                    <select name="totalScore" class="form-control">
                                         <option value="A">A</option>
                                         <option value="B" selected>B</option>
                                         <option value="C">C</option>
@@ -146,8 +241,19 @@
                                     </select>
                                 </div>
                                 <div class="form-group col-sm-3">
-                                    <label>Intensiveness</label>
-                                    <select name="comfortableScore" class="form-control">
+                                    <label>Total Score</label>
+                                    <select name="totalScore" class="form-control">
+                                        <option value="A">A</option>
+                                        <option value="B" selected>B</option>
+                                        <option value="C">C</option>
+                                        <option value="D">D</option>
+                                        <option value="E">E</option>
+                                        <option value="F">F</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-3">
+                                    <label>Your Grade</label>
+                                    <select name="creditScore" class="form-control">
                                         <option value="A">A</option>
                                         <option value="B" selected>B</option>
                                         <option value="C">C</option>
@@ -171,6 +277,37 @@
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
                                 <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal">Report</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="./reportAction.jsp" method="post">
+                              
+                            <div class="form-group">
+                                <label>Report Title</label>
+                                <input type="text" name="reportTitle" class="form-control" maxlength="50"/>
+                            </div>
+                            <div class="form-group">
+                                <label>Report Contents</label>
+                                <textarea name="reportContents" class="form-control" maxlength="2048" style="height:180px;"></textarea>
+                            </div>
+                            
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-danger">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -208,7 +345,9 @@
                 </div>
             </div>
         </div>
-            
+        <footer class="bg-dark mt-4 p-5 text-center" style="color:#ffffff;">
+            Copyright &copy; 2018 Milim Lee All rights reserved.
+        </footer>    
             
         
     </body>
