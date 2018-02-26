@@ -41,9 +41,9 @@
                             Membership
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdown">
-                            <a class="dropdown-item" href="#">Login</a>
-                            <a class="dropdown-item" href="#">Sign up</a>
-                            <a class="dropdown-item" href="#">Logout</a>
+                            <a class="dropdown-item" href="userLogin.jsp">Login</a>
+                            <a class="dropdown-item" href="userJoin.jsp">Sign up</a>
+                            <a class="dropdown-item" href="userLogout.jsp">Logout</a>
                         </div>
                     </li>
                 </ul>
