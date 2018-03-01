@@ -9,7 +9,6 @@ import java.sql.Connection;
 import util.DatabaseUtil;
 import java.sql.ResultSet;
 import java.sql.PreparedStatement;
-
 /**
  *
  * @author irene
@@ -60,9 +59,7 @@ public class userDAO {
                 e.printStackTrace();
             }
             return -2; // Error on DB    
-        }
-        
-    
+        }  
 
     public int join(UserDTO user){
         String SQL = "INSERT INTO USER VALUES (?, ?, ?, ?, false)";
@@ -77,7 +74,7 @@ public class userDAO {
             pstmt.setString(2, user.getUserPassword());
             pstmt.setString(3, user.getUserEmail());
             pstmt.setString(4, user.getUserEmailHash());
-            return pstmt.exeuteUpdate();
+            return pstmt.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -204,7 +201,7 @@ public class userDAO {
             conn = DatabaseUtil.getConnection();
             pstmt = conn.prepareStatement(SQL);
             pstmt.setString(1, userID);
-            pstmt.exeuteUpdate();
+            pstmt.executeUpdate();
             return true; // continuously be able to login            
         } catch (Exception e) {
             e.printStackTrace();
