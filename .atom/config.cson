@@ -1,0 +1,14 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    uriHandlerRegistration: "always"
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "b1418ea3-0db3-4d78-a95e-8806ff84b244"
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0

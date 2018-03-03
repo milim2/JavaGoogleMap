@@ -1,0 +1,16 @@
+VirtualBox GUI VM Selector Window 5.2.6 r120293 win.amd64 (Jan 15 2018 14:58:38) release log
+00:00:01.737818 Log opened 2018-02-16T14:31:33.773274900Z
+00:00:01.737818 Build Type: release
+00:00:01.737818 OS Product: Windows 10
+00:00:01.737818 OS Release: 10.0.16299
+00:00:01.737818 OS Service Pack: 
+00:00:01.738868 DMI Product Name: 80SM
+00:00:01.738868 DMI Product Version: Lenovo ideapad 310-15ISK
+00:00:01.738868 Host RAM: 8071MB (7.8GB) total, 4004MB (3.9GB) available
+00:00:01.738868 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:01.738868 Process ID: 11280
+00:00:01.738868 Package type: WINDOWS_64BITS_GENERIC
+00:00:01.738868 Qt version: 5.6.2
+00:00:01.942027 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:03.085489 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:08:37.873324 GUI: UIMediumEnumerator: Medium-enumeration finished!

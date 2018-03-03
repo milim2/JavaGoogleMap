@@ -1,0 +1,81 @@
+VirtualBox COM Server 5.2.6 r120293 win.amd64 (Jan 15 2018 14:58:38) release log
+00:00:00.007019 main     Log opened 2018-01-27T02:21:54.698220000Z
+00:00:00.007019 main     Build Type: release
+00:00:00.007019 main     OS Product: Windows 10
+00:00:00.007019 main     OS Release: 10.0.16299
+00:00:00.007019 main     OS Service Pack: 
+00:00:00.121203 main     DMI Product Name: 80SM
+00:00:00.133240 main     DMI Product Version: Lenovo ideapad 310-15ISK
+00:00:00.133240 main     Host RAM: 8071MB (7.8GB) total, 2791MB (2.7GB) available
+00:00:00.133240 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.133240 main     Process ID: 5888
+00:00:00.133240 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.136243          VirtualBox: object creation starts
+00:00:00.136243          Home directory: 'C:\Users\irene\.VirtualBox'
+00:00:00.136243          Installed Drivers:
+00:00:00.142261            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 5.2.6.20293)
+00:00:00.142261            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 5.2.6.20293)
+00:00:00.143263            C:\WINDOWS\system32\DRIVERS\VBoxNetAdp6.sys (Version: 5.2.6.20293)
+00:00:00.143263            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 5.2.6.20293)
+00:00:00.144267          Loading settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.147273          Getting USB descriptor failed with error 31
+00:00:00.148274          Getting USB descriptor failed with error 31
+00:00:00.148274          Getting USB descriptor failed with error 31
+00:00:00.149278          USB: Unknown USB device detected (idVendor: 0x04f2, idProduct: 0xb579)
+00:00:00.149278          USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe360)
+00:00:00.260185          HostDnsMonitor: old information
+00:00:00.260185            no server entries
+00:00:00.260185            no domain set
+00:00:00.260185            no search string entries
+00:00:00.260185          HostDnsMonitor: new information
+00:00:00.260185            server 1: 192.168.2.1
+00:00:00.260185            server 2: 207.164.234.193
+00:00:00.260185            domain: home
+00:00:00.260185            no search string entries
+00:00:00.260185          HostDnsMonitorProxy::notify
+00:00:00.315332          VD: VDInit finished with VINF_SUCCESS
+00:00:00.316335          Loading settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:00:00.317338          VirtualBox: object created
+00:00:06.301133          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:06.984527          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:05:16.145801 USBPROXY Getting USB descriptor failed with error 31
+00:05:16.145801 USBPROXY Getting USB descriptor failed with error 31
+00:05:16.146820 USBPROXY Getting USB descriptor failed with error 31
+00:05:18.683511 USBPROXY Getting USB descriptor failed with error 31
+00:05:18.683511 USBPROXY Getting USB descriptor failed with error 31
+00:05:18.683511 USBPROXY Getting USB descriptor failed with error 31
+00:20:28.662170          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:22:23.488601          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:22:24.256379          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:22:29.707937          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:22:30.288396          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85cd948e-a71f-4289-281e-0ca7ad48cd89} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=0
+00:24:26.685870          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:24:33.734330          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:24:34.380811 SaveState Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:24:34.996339          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:24:51.486327          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:24:56.156384          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={edba9d10-45d8-b440-1712-46ac0c9bc4c5} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:25:03.450605          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:42:18.066403          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:42:36.898471          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:37.002455          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:42:37.307401          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:45:22.107134          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:45:56.775679          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:45:56.883574          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:49:43.377140          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:51:42.332225          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:53:11.619758          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:56:19.407429          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:56:19.747567 SaveState Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:56:20.354107          Saving settings file "C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vbox" with version "1.16-windows"
+00:57:35.018341          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:35.090771          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:35.113911          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:35.244068          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:35.319854          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:35.369521          Saving settings file "C:\Users\irene\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:57:40.955974 main     VirtualBox: object deletion starts
+00:57:40.955974 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={4afe423b-43e0-e9d0-82e8-ceb307940dda} aComponent={MediumWrap} aText={Medium 'C:\Users\irene\VirtualBox VMs\Ubuntu 16.0\Ubuntu 16.0.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:57:40.960984 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={9570b9d5-f1a1-448a-10c5-e12f5285adad} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:57:40.960984 main     VirtualBox: object deleted

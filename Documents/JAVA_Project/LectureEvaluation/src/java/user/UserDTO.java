@@ -29,7 +29,7 @@ public class UserDTO {
     }
 
     // Initializing
-    //public UserDTO { }
+    public UserDTO (){ }
     
     public UserDTO(String userID, String userPassword, String userEmail, String userEmailHash, boolean userEmailChecked) {
         this.userID = userID;
