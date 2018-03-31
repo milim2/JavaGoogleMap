@@ -59,7 +59,8 @@ public class userDAO {
                 e.printStackTrace();
             }
             return -2; // Error on DB    
-        }  
+        }
+    }
 
     public int join(UserDTO user){
         String SQL = "INSERT INTO USER VALUES (?, ?, ?, ?, false)";

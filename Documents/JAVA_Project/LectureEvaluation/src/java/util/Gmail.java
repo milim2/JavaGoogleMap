@@ -1,10 +1,11 @@
-import java.net.PasswordAuthentication;
-import com.sun.net.httpserver.Authenticator;
+package util;
+
+import javax.mail.Authenticator;
+import javax.mail.PasswordAuthentication;
 
 public class Gmail extends Authenticator {
 
-    @Override
-        protected PasswordAuthentication(){
-            return new PasswordAuthentication("zzlyann","2hagojaeby");
+        protected PasswordAuthentication getPassAuthentication(){
+            return new PasswordAuthentication("milimlee0","2hagojaeby");
         }
 }
