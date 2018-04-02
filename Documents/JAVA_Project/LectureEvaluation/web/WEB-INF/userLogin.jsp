@@ -33,7 +33,7 @@
             
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="index.jsp">Main</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -41,7 +41,7 @@
                             Membership
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdown">
-                            <a class="dropdown-item" href="userLogin.jsp">Login</a>
+                            <a class="dropdown-item active" href="userLogin.jsp">Login</a>
                             <a class="dropdown-item" href="userJoin.jsp">Sign up</a>
                             <a class="dropdown-item" href="userLogout.jsp">Logout</a>
                         </div>
